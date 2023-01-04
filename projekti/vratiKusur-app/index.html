@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>vratiKusur</title>
+  </head>
+  <body>
+    <header>
+      <h1><em>vratiKusur</em></h1>
+      <br />
+      <h2>
+        online aplikacija za izračun ostatka u Eurima ukoliko plaćate u Kunama
+      </h2>
+    </header>
+    <article>
+      <div class="informations_container">
+        <p>
+          Unesite iznos računa u eurima te iznos u kunama kojim želite platiti.
+          <br /><br />
+          Ukoliko iznos u kunama nije dovoljan aplikacija će Vam javiti grešku
+          te preporučiti prikladan iznos. <br /><br />
+          Provodi se fiksni tečaj konverzije 1€ = 7,53450 kn.
+        </p>
+      </div>
+
+      <main>
+        <div class="flex_container">
+          <section>
+            <div class="amount_container">
+              <h3 class="container_item">Iznos računa u eurima</h3>
+              <input
+                type="number"
+                min="0"
+                class="container_input container_input--racun"
+              />
+            </div>
+          </section>
+
+          <section>
+            <div class="amount_container" id="kuna">
+              <h3 class="container_item">Iznos kuna kojima plaćate</h3>
+              <input
+                type="number"
+                min="0"
+                class="container_input container_input--kuna"
+              />
+            </div>
+          </section>
+
+          <section>
+            <div class="amount_container">
+              <h3 class="container_item">Iznos kusura u eurima</h3>
+              <input
+                readonly
+                type="number"
+                class="container_input container_input--kusur"
+              />
+            </div>
+          </section>
+        </div>
+        <div class="countButton_container">
+          <button class="countButton"><strong>Izračunaj</strong></button>
+        </div>
+      </main>
+    </article>
+    <footer>&copy; 2023, All rights reserved <br />Roko Pivac</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>ePortfolio</title>
+  </head>
+  <body>
+    <header class="flex-container"> 
+      <div>
+    <nav class="nav">
+      <h1 class="title">ePortfolio - by Roko Pivac</h1>
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#subtitle--2">About me</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#subtitle--3">My projects</a>
+        </li> 
+      
+      </ul>
+    </nav>
+      </div> 
+    </header>
+    
+    <h2 class="subtitle" id="subtitle--1">Welcome!</h2>
+    
+    <ul class="project-list">
+      <section class="project_container">
+        <div class="welcome-text">
+          <p class="paragraph"> 
+            Hi, I present you my ePortfolio.<br /> Here You can find some informations about me and all my projects.<br />Every project is presented with UI picture and small description.<br /> You can also try every project.<br /> Take a look and have fun. :) 
+           </p>
+        </div>
+        <div class="welcome-picture">
+          <img src="project-img/first.png" />
+        </div>
+      </section>
+     </ul>
+      <h2 class="subtitle" id="subtitle--2">About me</h2>
+    
+      <ul class="project-list">
+        <section class="project_container">
+          <div class="aboutme-picture">
+            <img src="project-img/ja.jpeg" />
+          </div>
+          <div class="welcome-picture">
+            <p class="aboutme-text">Hi, my name is Roko Pivac <br /> I have a Master's degree in Electronics at the Faculty of Electrical Engineering, Mechanical Engineering and Naval Architecture in Split, Croatia. <br />Through projects at university, I have gained knowledge of object-oriented programming (C++), HTML, CSS, and Javascript. <br />Finally, I have decided to focus on frontend development so I have recently started a javascript course on Udemy (Jonass Schmedtman's course) and I've listened to about 56 hours of lectures which is 80% of the course.<br /> Still, I have no experience with frameworks but as soon as I finish this course I will get another one for frameworks such as: React, Angular, or Vue and continue to develop my skills.<br /> Scroll down to see my projects. </p>
+          </div>
+        </section>
+
+        </ul>
+
+    <h2 class="subtitle" id="subtitle--3">My projects</h2>
+    <ul class="project-list">
+      <section class="project_container">
+        <div class="projects-name">
+          <h3>Pig game</h3>
+          <img
+            class="project-picture"
+            src="project-img/pig-game.png"
+            alt="pig-game"
+          />
+        </div>
+        <div class="projects">
+          <p>
+            <strong>Pig game</strong> is web-dice game designed for 2 players.
+            <br />
+            Game is made from the Javascript course
+            <em>The Complete JavaScript Course 2022: From Zero to Expert!</em>
+            by <em>Jonas Schmedtmann</em>. <br />
+            Added <em>Choose Name</em> functionality.
+          </p>
+          <button class="project-button" onclick="window.location.href = 'projekti/pig-game/index.html';">Open app!</button>
+        </div>
+      </section>
+      
+      <section class="project_container">
+       
+        <div class="projects-name">
+          <h3>Bankist app </h3>
+          
+          <img
+            class="project-picture"
+            src="project-img/bankist-app.png"
+            alt="bankist-app"
+          />
+        </div>
+        <div class="projects">
+          <p>
+            <strong>Bankist application</strong> is fictional minimalistic
+            banking application.<br />
+            Application is created from the Javascript course
+            <em>The Complete JavaScript Course 2022: From Zero to Expert!</em>
+            by <em>Jonas Schmedtmann</em>. <br />
+            Added <em>Registration</em> functionality.
+          </p>
+          <button class="project-button" onclick="window.location.href = 'projekti/bankist-app/index.html';">Open app!</button>
+        </div>
+      </section>
+      
+      <section class="project_container">
+        <div class="projects-name">
+          <h3>Mapty app</h3>
+          <img
+            class="project-picture"
+            src="project-img/mapty-app.png"
+            alt="mapty-app"
+          />
+        </div>
+        <div class="projects">
+          <strong>Mapty application</strong> is application for tracking personal workouts.<br />
+            Application is created from the Javascript course
+            <em>The Complete JavaScript Course 2022: From Zero to Expert!</em>
+            by <em>Jonas Schmedtmann</em>. <br />
+            
+          </p>
+          <button class="project-button" onclick="window.location.href = 'projekti/mapty-app/index.html';">Open app!</button>
+        </div>
+      </section>
+      
+      <section class="project_container">
+        <div class="projects-name">
+          <h3>earthRep app</h3>
+          <img
+            class="project-picture"
+            src="project-img/earthrep-app.png"
+            alt="earthrep-app"
+          />
+        </div>
+        <div class="projects">
+          <p>
+            <strong>earthRep application</strong> is application created for tracking earthquakes.<br />
+            Application is modelled on Mapty app.<br />
+            User marks earthquake position and fills the form about earthquakes details.
+          </p>
+          <button class="project-button" onclick="window.location.href = 'projekti/earthRep-app/index.html';">Open app!</button>
+        </div>
+      </section>
+      
+      <section class="project_container">
+        <div class="projects-name">
+          <h3>countryInfo app</h3>
+          <img
+            class="project-picture"
+            src="project-img/countries-app.png"
+            alt="countries-app"
+          />
+        </div>
+        <div class="projects">
+          <p>
+            <strong>countryInfo application</strong> is application which provides you some information about desired country.
+            <br />
+            Application is created from the Javascript course
+            <em>The Complete JavaScript Course 2022: From Zero to Expert!</em>
+            by <em>Jonas Schmedtmann</em>. <br />
+            
+          </p>
+          <button class="project-button" onclick="window.location.href = 'projekti/country-app/index.html';">Open app!</button>
+        </div>
+      </section>
+
+      <section class="project_container">
+        <div class="projects-name">
+          <h3>vratiKusur app</h3>
+          <img
+            class="project-picture"
+            src="project-img/vratiKusur.png"
+            alt="countries-app"
+          />
+        </div>
+        <div class="projects">
+          <p>
+            <strong>vratiKusur application</strong> is application which counts money change in Euros when paying with kuna.
+            <br />
+            
+            
+          </p>
+          <button class="project-button" onclick="window.location.href = 'projekti/vratiKusur-app/index.html';">Open app!</button>
+        </div>
+      </section>
+      
+    </ul>
+
+    <footer> &copy; 2023, All rights reserved <br >Roko Pivac</footer>
+  </body>
+</html>
